@@ -17,4 +17,4 @@ gh = Github()
 print("Jetzt habe ich irgendwelchen Quatsch eingefügt.")
 
 user = gh.get_user("aojanzen")
-print("This is a test.")
+print(f"User object created: {user}")
